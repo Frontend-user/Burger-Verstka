@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+    margin: 0;font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 466px;
+    position: relative;
+}
+
+.imgg {
+    width: 100%;
+    position: relative;
+}
+
+
+.pic {
+    position: absolute;
+    
+    /* z-index: 3; */
+    /* left: 430px; */
+    /* top: 100px; */
+    width: 326px;
+    margin-left: -1200px;
+    height: 326px;
+    margin-top: 60px;
+}
+
+.text {
+    position: absolute;
+    left: 645px;
+    top: 29px;
+    z-index: 4;
+}
+
+.h2 {
+    position: absolute;
+width: 437px;
+height: 120px;
+left: 775px;
+top: 123px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+/* or 60px */
+
+
+color: #FFFFFF;
+}
+
+.soc {
+    color: #FF5C00;
+}
+
+.p1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    z-index: 3;
+    position: absolute;
+    top: 315px;
+    left: 710px;
+}
+
+.main {
+    margin-top: 77px;
+}
+.nav {
+    margin-left: 75px;
+    margin-right: 148px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;padding: 8px 14px;
+}
+
+.text2 {
+    margin-left: 8px;
+}
+
+.active {
+    background: #FFAB08;
+}
+
+
+
+.burger-item {
+    
+/* border: 1px solid red; */
+}
+.burg-img {
+    width: 276px;
+height: 220px;
+padding: 12px 12px 0px 12px;
+}
+
+
+.bfirst {
+    margin-left: 12px;  
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bsecond {
+    margin-top: 8px;
+    margin-left: 12px;  
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.btree {
+    margin-top: 29px;
+    color: #B1B1B1;
+font-size: 16px;
+font-weight: 600;
+margin-left: 12px;  
+}
+
+.but {
+    position: absolute;
+padding: 11px 92px;
+/* margin: 12px 12px 12px 12px; */
+font-size: 12px;
+font-weight: 400;
+border-radius: 12px;
+border: none;
+background: #eaeaec;
+/* background: #282828; */
+width: 276px;
+height: 40px;
+margin: 20px 12px 12px 12px;
+}
+
+
+.burger-block1 {
+    /* width: 960px; */
+    margin-left: 405px;
+    display: flex;
+    gap: 30px;
+}
+.burger-block2 {
+    display: flex;
+    margin-top: 54px;
+    margin-left: 405px;
+    gap: 30px;
+}
+.burger-item {
+    width: 300px;
+    height: 441px;
+}
+.burgh1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 405px;
+    margin-top: 80px;
+}
+
+.korzina {
+    position: absolute;
+    left: 75px;
+    top: 668px;
+    width: 300px;
+    height: 467px;
+    background: #FFFFFF;
+}
+
+.kor-item {
+    display: flex;
+    margin-bottom: 31px;
+}
+.firstkor {
+    display: flex;
+}
+.secondkor {
+    margin-left: 10px;
+}
+.dis {
+    display: flex;
+    flex-direction: column;
+}
+.sirni {
+    font-size: 12px;
+    font-weight: 400;
+margin-left: 6px;
+}
+
+ .seri {
+    font-size: 12px;
+    font-weight: 400;
+    color: #B1B1B1;
+margin-left: 6px;
+margin-top: 1px;
+}
+
+.last {
+    margin-left: 6px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 6px;
+    
+}
+
+.karakus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 84px;
+height: 40px;background: #F2F2F3;border-radius: 12px;
+}
+
+.itogo {font-weight: 400;
+font-size: 16px;
+    display: flex;
+
+}
+.f {
+    font-size: 16px;
+    font-weight: 400;
+   margin-right: 130px; 
+}
+
+.zakaz {
+    margin-top: 24px;
+    background: #FF7020;width: 268px;
+height: 40px;border-radius: 12px;display: flex;
+flex-direction: row;
+color: #fff;
+justify-content: center;align-items: center;font-weight: 400;
+font-size: 16px;
+cursor: pointer;
+}
+
+.lastone {
+    display: flex;
+    margin-top: 12px;    align-items: center;
+}
+
+.lastimg {
+    margin-right: 8px;
+}
+
+.te {
+    font-weight: 400;
+font-size: 12px;
+}
+
+.divs {
+    margin-top: 25px;
+background: #F2F2F3;
+border-radius: 6px;width: 41px;
+height: 20px;
+}
+
+.korrr {
+    display: flex;
+}
+
+.oo {
+    margin-right: 100px;
+}
+
+.footer {
+    margin-top: 100px;
+        position: relative;   
+        height: 244px;
+        width: 1440px;
+
+}
+
+.alo {
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 75px;
+}
+
+.alo2 {
+    margin-top: 168px;font-weight: 400;
+    font-size: 12px;
+    margin-left: 75px; position: absolute;
+}
+
+.alo3 {
+    margin-top: 192px;font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+.alo4 {
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 735px;
+}
+
+.di1 {
+    margin-top: 25px;
+    display: flex;
+}
+
+.gg {
+    font-weight: 400;
+font-size: 24px;
+}
+.di2 {
+    font-weight: 400;
+font-size: 16px;
+}
+
+.gg2 {
+    font-weight: 400;
+font-size: 24px;
+}
+
+.alo5{ 
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 1065px;
+}
+
+.vk {
+    margin-right: 16px;
+}
